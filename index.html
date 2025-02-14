@@ -3,74 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AirSpace Projects</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #004080;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            margin: 20px;
-        }
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #004080;
-            font-weight: bold;
-        }
-        .container {
-            padding: 20px;
-        }
-        footer {
-            background-color: #004080;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+    <title>Airspace - Home</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to AirSpace Projects</h1>
-    </header>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <div class="container">
-        <section id="about">
-            <h2>About AirSpace</h2>
-            <p>Welcome to AirSpace Projects! This site is dedicated to showcasing the innovative projects and ideas related to the Air Force and beyond. Explore our various sections to learn more about our mission, projects, and how to get in touch.</p>
-        </section>
-        <section id="projects">
-            <h2>Featured Projects</h2>
+        <nav>
             <ul>
-                <li>Project 1: Description of your first project.</li>
-                <li>Project 2: Description of your second project.</li>
-                <li>Project 3: Description of your third project.</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="welcome">
+            <h1>Welcome to Airspace</h1>
+            <p>Your hub for air force related projects and portfolio.</p>
         </section>
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>If you have any questions or would like to collaborate, please reach out!</p>
-            <p>Email: contact@airspaceprojects.com</p>
+        <section id="latest-projects">
+            <h2>Latest Projects</h2>
+            <div class="project-card">
+                <img src="images/project1.jpg" alt="Project 1">
+                <h3>Project Title 1</h3>
+                <p>Brief description of the project.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="project-card">
+                <img src="images/project2.jpg" alt="Project 2">
+                <h3>Project Title 2</h3>
+                <p>Brief description of the project.</p>
+                <a href="#">Read More</a>
+            </div>
         </section>
-    </div>
+    </main>
     <footer>
-        <p>&copy; 2025 AirSpace Projects. All rights reserved.</p>
+        <p>&copy; 2025 MSgt. Devin Snell. All rights reserved.</p>
     </footer>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
